@@ -3,12 +3,14 @@ SampleApp::Application.routes.draw do
 
   get "static_pages/help"
 
+  get "static_pages/about"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
-  # Keep in mind you can assign values other than :controller and :action
+  # Kentroller and :actionep in mind you can assign values other than :co
 
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
