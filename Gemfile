@@ -11,6 +11,7 @@ group :development, :test do
   gem 'guard-spork', '1.5.1'
   gem 'spork', '0.9.2'
   gem 'annotate', '2.5.0'
+  
 end
 
 # Gems used only for assets and not required
@@ -27,6 +28,7 @@ group :test do
   gem 'capybara', '1.1.2'
   gem 'rb-fsevent', '0.9.1', :require => false
   gem 'growl', '1.0.3'
+  gem 'factory_girl_rails', '4.1.0'
 end
 
 group :production do
